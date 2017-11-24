@@ -5,12 +5,13 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
   <link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+   <link rel="stylesheet" href="css/simplebox.css" type="text/css" media="all">
   <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
   <script type="text/javascript" src="js/jquery-1.6.js" ></script>
   <script type="text/javascript" src="js/cufon-replace.js"></script>
   		<script type="text/javascript" src="js/NewsGoth_BT_400.font.js"></script>
   		<script type="text/javascript" src="js/NewsGoth_BT_700.font.js"></script>
-  <script type="text/javascript" src="js/atooltip.jquery.js"></script>
+</head>
 </head>
 
 <body id="page3">
@@ -32,19 +33,17 @@
 			<div class="box">
 			<article id="content">
 				<div class="wrapper">
-					<h2>Фото</h2>
+					<h2>&#160 Фото</h2>
 					<dl class="folio">
-						<dt>
-							<img src="images/gallery_big_img1.jpg" alt="" id="img1" />
-							<img src="images/gallery_big_img2.jpg" alt="" id="img2" />
-							<img src="images/gallery_big_img3.jpg" alt=""  class="active" id="img3" />
-							<img src="images/gallery_big_img4.jpg" alt="" id="img4" />
-							<img src="images/gallery_big_img5.jpg" alt="" id="img5" />
-							<img src="images/gallery_big_img6.jpg" alt="" id="img6" />
-							<img src="images/gallery_big_img7.jpg" alt="" id="img7" />
-							<img src="images/gallery_big_img8.jpg" alt="" id="img8" />
-							<img src="images/gallery_big_img9.jpg" alt="" id="img9" />
-						</dt>
+<div id="cp_widget_a9fea525-1cc7-4cca-9021-1bfba76eb5fe">...</div><script type="text/javascript">
+var cpo = []; cpo["_object"] ="cp_widget_a9fea525-1cc7-4cca-9021-1bfba76eb5fe"; cpo["_fid"] = "AUJACKeIIoLT";
+var _cpmp = _cpmp || []; _cpmp.push(cpo);
+(function() { var cp = document.createElement("script"); cp.type = "text/javascript";
+cp.async = true; cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
+var c = document.getElementsByTagName("script")[0];
+c.parentNode.insertBefore(cp, c); })(); </script>
+						<a rel="simplebox" href="images/fot.zip">
+<img src="images/fot.zip"></a>
 						<dd>
 							<ul class="marg_right1">
 								<li><a href="#img1"><img src="images/gallery_img1.jpg" alt="" width="260" height="171" /></a></li>
@@ -64,72 +63,51 @@
 						</dd>
 					</dl>
 				</div>
+
 			</article>
-			<!--content end-->
-			<!--footer -->
 			<footer>
 				<div class="line1">
 					<div class="line2 wrapper">
 						<div class="icons">
-							<h4>Connect With Us</h4>
+							<h4 align="center">Зв'яжіться з нами</h4>
 							<ul id="icons">
-								<li><a href="#" class="normaltip" title="Reddit"><img src="images/icon1.jpg" alt=""></a></li>
-								<li><a href="#" class="normaltip" title="Flickr"><img src="images/icon2.jpg" alt=""></a></li>
-								<li><a href="#" class="normaltip" title="Twitter"><img src="images/icon3.jpg" alt=""></a></li>
-								<li><a href="#" class="normaltip" title="Facebook"><img src="images/icon4.jpg" alt=""></a></li>
-								<li><a href="#" class="normaltip" title="Rss"><img src="images/icon5.jpg" alt=""></a></li>
-							</ul>
-							<!-- {%FOOTER_LINK} -->
-						</div>
-						<div class="info">
-							<h4>About Us</h4>
-							<ul>
-								<li><a href="#">Club Info</a></li>
-								<li><a href="#">Music</a></li>
-								<li><a href="#">DJ Sets</a></li>
-								<li><a href="#">News</a></li>
+								<li><a href="https://vk.com/tancinasheimolodosti" class="normaltip" title="Вконтакте"><img src="images/icon1.png" alt=""></a></li>
 							</ul>
 						</div>
 						<div class="info">
-							<h4>Join In</h4>
+							<h4 align="center">Про нас</h4>
 							<ul>
-								<li><a href="#">Sign In</a></li>
-								<li><a href="#">Forums</a></li>
-								<li><a href="#">Promotions</a></li>
+								<li align="center"><a href="#">#naStile інформація</a></li>
+								<li align="center"><a href="#">+++++</a></li>
+								<li align="center"><a href="#">++++++</a></li>
 							</ul>
 						</div>
 						<div class="phone">
-							<h4>Order Tickets</h4>
-							<p>Free Phone<span>8-800-123-NIGHT</span></p>
+							<h4 align="center">Замовлення квитків</h4>
+							<p align="center"><span>0**-***-**-**-Аліна</span></p>
 						</div>
 					</div>
-					Website Template by <a href="http://psdsite.ru/" target="_blank" >psdsite.ru</a>
+					
 				</div>
 			</footer>
-			<!--footer end-->
 			</div>
 		</div>
 	</div>
 <script>
-	Cufon.now();
-</script>
-<script>
 $(document).ready(function(){
-	var Img='#'+$(".folio .active").attr('id')
-	$(".folio dt img").css({opacity:'0'});
-	$(".folio dt img.active").css({opacity:'1'});
-	$(".folio ul li a").click(function(){
-  		var ImgId = $(this).attr("href");
-  		if (ImgId!=Img) {
-			$(".folio dt .active").animate({ opacity: "0" }, 600,function(){
-				 $(this).removeClass('active');
-			})
-				 $(ImgId).animate({ opacity: "1" }, 600).addClass('active');
-		}
-		Img=ImgId;
-  	  return false;
-   })
-});
+	//gallery
+	$("#gallery1").jCarouselLite({
+			btnNext: ".next",
+		 	btnPrev: ".prev",
+       		mouseWheel: true,
+			vertical: true,
+			circular: true,
+			visible: 2,
+			speed: 600,
+			easing: 'easeOutCirc'
+	});
+	Cufon.now();
+})
 </script>
 </body>
 </html>
