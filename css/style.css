@@ -109,7 +109,7 @@ footer a:hover{ text-decoration:underline}
 .info{ float:left; width:280px;}
 .phone{ width:215px; float:left; padding-left:70px;}
 
-.phone span{ font-size:30px; margin-top:-5px; text-transform:uppercase; display:block; line-height:1.2em; letter-spacing:-2px;}
+.phone span{ font-size:20px; margin-top:-5px; text-transform:uppercase; display:block; line-height:1.2em; letter-spacing:-2px;}
 
 #icons{ padding: 8px 0 0 0; overflow:hidden;}
 #icons li{ float:left; padding-right:6px;}
