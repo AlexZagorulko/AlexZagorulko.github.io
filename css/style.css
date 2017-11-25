@@ -23,7 +23,7 @@ body{ background: url(../images/bg.jpg) center 0 no-repeat #000; background-atta
 
 /* ============================= main layout ====================== */
 
-a{ color:#FFFFFF; text-decoration: underline; outline:none}
+a{ color:#FFFFFF; text-decoration: none; outline:none}
 a:hover{ text-decoration: none}
 h1{ padding:35px 0 0 43px;}
 h2{ font-size:40px; color:#fff; line-height:1.2em; padding:20px 0 14px 0; letter-spacing:-3px; font-weight:400; margin-left:-2px;}
@@ -31,6 +31,7 @@ h2#welcom{ font-size:61px; line-height:1.2em; padding:0 0 9px 0; letter-spacing:
 h2 strong{ font-weight:700; color:#7532a9;}
 h3{ font-size:30px; line-height:1.2em; color:#7532a9; padding:0 0 8px 0; font-weight:400; letter-spacing:-2px;}
 h4{ font-size:30px; color:#7f7f7f; line-height:1.2em; font-weight:400; letter-spacing:-2px; padding:12px 0 11px 0}
+h5{ font-size:25px; font-family: Georgia, 'Times New Roman', Times, serif; line-height:1.2em; color:#FFFFE0; padding:0 0 8px 0; font-weight:400; letter-spacing:-2px;}
 p{ padding-bottom:25px;}
 
 /* ============================= header ====================== */
